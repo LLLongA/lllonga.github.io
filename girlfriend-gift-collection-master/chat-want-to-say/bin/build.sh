@@ -6,4 +6,4 @@ fi
 cd $BASE_PATH/../
 yarn
 echo "yarn build --mode $1"
-yarn build --mode $1
+yarn vite build --mode production
